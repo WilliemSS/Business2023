@@ -73,8 +73,44 @@ document.querySelector(".hire-me").addEventListener("click",function()
     removeBackSection();
     addBackSection(sectionIndex);
 })
+/*button hire-me-1*/
+document.querySelector(".hire-me-1").addEventListener("click",function()
+{
+    const sectionIndex=this.getAttribute("data-section-index");
+    showSection(this);
+    updateNav(this);
+    removeBackSection();
+    addBackSection(sectionIndex);
+})
+/*button hire-me-2*/
+document.querySelector(".hire-me-2").addEventListener("click",function()
+{
+    const sectionIndex=this.getAttribute("data-section-index");
+    showSection(this);
+    updateNav(this);
+    removeBackSection();
+    addBackSection(sectionIndex);
+})
 /*button More About Me*/
 document.querySelector(".about-me").addEventListener("click",function()
+{
+    const sectionIndex=this.getAttribute("data-section-index");
+    showSection(this);
+    updateNav(this);
+    removeBackSection();
+    addBackSection(sectionIndex);
+})
+/*button goto-project*/
+document.querySelector(".project-me").addEventListener("click",function()
+{
+    const sectionIndex=this.getAttribute("data-section-index");
+    showSection(this);
+    updateNav(this);
+    removeBackSection();
+    addBackSection(sectionIndex);
+})
+/*button goto-result*/
+document.querySelector(".result-me").addEventListener("click",function()
 {
     const sectionIndex=this.getAttribute("data-section-index");
     showSection(this);
